@@ -770,7 +770,7 @@ int main(void){
     SetWindowPosition(30, 60);
     InitAudioDevice();
     
-    int choice = CAN_NOT_SOLVE, delay = 0;
+    int choice = COLLEGE_NAME_FRAME, delay = 0;
     float font_size, spacings, scrollingText = WIDTH + 100, scrollingTextPos = -100;
     char buffer[100];
     Image background_i = {0}, logo_i = {0};
